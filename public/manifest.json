@@ -1,22 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Stanley Garbo",
+  "name": "Stanley Garbo - Portfolio",
   "icons": [
     {
+      "16": "my__logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
+      "48": "my__logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
+      "128": "my__logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "rgb(0, 7, 29)",
   "background_color": "#ffffff"
 }

@@ -41,7 +41,7 @@ const Social = ({windowDimensions}) =>
             <img src={twitter} alt='Twitter Icon' width='20px' height='20px'></img>
         </li>
         <li>
-            <img src={linkedInIcon} alt='Linked In Icon' width='20px' height='20px'></img>
+            <a href='https://www.linkedin.com/in/stanleygarbo-4b46851b2'><img src={linkedInIcon} alt='Linked In Icon' width='20px' height='20px'></img></a>
         </li>
         {windowDimensions.x > 596 && <div></div>}
     </motion.div>

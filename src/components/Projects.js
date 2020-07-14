@@ -45,7 +45,7 @@ const Projects = () => {
                 <Project 
                     projectTitle='Google Keep Clone' 
                     projectImage={todoApp} 
-                    projectDescription='A todolist I made with Vue and Firebase.'
+                    projectDescription='A Todolist App I made with Vue and Firebase.'
                     techs={[
                         {icon:firebaseIcon,name:'Firebase'},
                         {icon:vueIcon,name:'Vue'}
