@@ -456,7 +456,7 @@ footer{
 .menu{
   height: 100vh;
   padding:0 50px;
-  z-index: 11;
+  z-index: 1;
   text-align: center;
   top:0;
   position: absolute;
