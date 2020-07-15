@@ -43,6 +43,7 @@ code {
   position: absolute;
   opacity: .4;
   right: 40px;
+  top: 70vh;
   z-index: -1;
 }
 
@@ -224,7 +225,7 @@ nav ul li a:hover{
 .about{
   width:76%;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -455,7 +456,7 @@ footer{
 .menu{
   height: 100vh;
   padding:0 50px;
-  z-index: 1;
+  z-index: 11;
   text-align: center;
   top:0;
   position: absolute;

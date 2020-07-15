@@ -31,10 +31,7 @@ const Project = ({projectTitle,projectImage,projectDescription,techs,links}) => 
                         </a>
                     )}
                 </div>
-
             </div>
-            
-            
         </div>
     )
 }
