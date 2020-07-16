@@ -8,7 +8,8 @@ import reactIcon from '../icons/react-js.svg'
 import vueIcon from '../icons/vue-js.svg'
 import githubIcon from '../icons/github.svg'
 import arrowIcon from '../icons/arrow.svg'
-
+import reduxIcon from '../icons/redux.svg'
+import tmdbIcon from '../icons/tmdb.svg'
 
 const Projects = () => {
     return (
@@ -35,7 +36,9 @@ const Projects = () => {
                     projectImage={movieSurfer} 
                     projectDescription='A Movie Information site I made with ReactJS, SwiperJS, Redux, axios and TMDB API.'
                     techs={[
-                        {icon:reactIcon,name:'React'}
+                        {icon:reactIcon,name:'ReactJS'},
+                        {icon:reduxIcon,name:'Redux'},
+                        {icon:tmdbIcon,name:'TMDB API'},
                     ]}
                     links={[
                         {icon:githubIcon,url:'https://github.com/stanleygarbo/Movie-surfer'},
